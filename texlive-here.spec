@@ -1,3 +1,9 @@
+# revision 16135
+# category Package
+# catalog-ctan /macros/latex/contrib/here
+# catalog-date 2009-11-28 09:57:52 +0100
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-here
 Version:	20091128
 Release:	1
@@ -41,6 +47,7 @@ in an acceptable framework.
 %files
 %{_texmfdistdir}/tex/latex/here/here.sty
 %doc %{_texmfdistdir}/doc/latex/here/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ in an acceptable framework.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
