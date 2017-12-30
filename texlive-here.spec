@@ -5,8 +5,8 @@
 # catalog-license pd
 # catalog-version undef
 Name:		texlive-here
-Version:	20091128
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Emulation of obsolete package for "here" floats
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/here
