@@ -5,7 +5,7 @@
 # catalog-license pd
 # catalog-version undef
 Name:		texlive-here
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Emulation of obsolete package for "here" floats
 Group:		Publishing
